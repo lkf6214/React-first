@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import MainHeader from "./components/MainHeader";
+import ImgComponent from "./components/ImgComponent";
+import BtnToNaver from "./components/BtnToNaver";
+import ClassState from "./components/ClassState";
+import FunctionalState from "./components/FunctionalState";
+
+// 화면을 만들어준 파일
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <MainHeader />
+      <FunctionalState />
+      <ImgComponent />
+      <BtnToNaver />
     </div>
   );
 }
