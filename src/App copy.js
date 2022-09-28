@@ -17,8 +17,6 @@ import PracticeTwo from "./components/PracticeTwo";
 import { useState } from "react";
 import AppTest from "./components/AppTest";
 import logo from "./logo.svg";
-import TestRef from "./components/TestRef";
-import ChangeFocus from "./components/ChangeFocus";
 
 // 화면을 만들어준 파일
 
@@ -114,21 +112,8 @@ import ChangeFocus from "./components/ChangeFocus";
 //   );
 // }
 
-// 실습...react페이지 구현
-// function App() {
-//   return (
-//     <div className="App">
-//       <AppTest logo={logo} />
-//     </div>
-//   );
-// }
-
 function App() {
-  return (
-    <div className="App">
-      <ChangeFocus />
-    </div>
-  );
+  return <div className="App"></div>;
 }
 
 export default App;
